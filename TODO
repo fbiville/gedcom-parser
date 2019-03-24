@@ -1,0 +1,12 @@
+spec: http://homepages.rootsweb.com/~pmcbride/gedcom/55gcch1.htm
+
+not implemented for now
+
+ - logical record SHOULD BE < 32K
+ - forbid leading zeros when parsing gedcom line levels
+ - Future pointer structures may allow pointing to records within a public accessible database as an alternative.
+    WHICH PUBLIC DBs ????
+ - The length of the GEDCOM TAG is a maximum of 31 characters, with the first 15 characters being unique.
+ - The total length of a GEDCOM line, including leading white space, level number, cross-reference number, tag, value, delimiters, and terminator, must not exceed 255 (wide) characters.
+ - Leading white space (tabs, spaces, and extra line terminators) preceding a GEDCOM line should be ignored by the reading system. Systems generating GEDCOM should not place any white space in front of the GEDCOM line.
+
